@@ -1,0 +1,13 @@
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck.deps.json
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck.runtimeconfig.json
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck.runtimeconfig.dev.json
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck.dll
+/home/acer/Repos/Azure/Container/bin/Debug/netcoreapp3.1/ipcheck.pdb
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.csprojAssemblyReference.cache
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.csproj.CoreCompileInputs.cache
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.AssemblyInfoInputs.cache
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.AssemblyInfo.cs
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.dll
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.pdb
+/home/acer/Repos/Azure/Container/obj/Debug/netcoreapp3.1/ipcheck.genruntimeconfig.cache

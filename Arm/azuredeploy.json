@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "defaultValue": "test"
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "Australia East"
+        },
+        "linkedTemplateUri": {
+            "type": "string",
+            "metadata": {
+              "description": "The Uri of the linked template."
+            },
+            "defaultValue": "./resourceGroupTemplate.json"
+          }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "name": "linkedTemplate",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2018-05-01",
+            "properties": {
+              "mode": "Incremental",
+              "templateLink": {
+                "uri": "[parameters('linkedTemplateUri')]"
+              },
+              "parameters": {
+                "storageAccountName": {
+                  "value": "[parameters('name')]"
+                },
+                "location": {
+                  "value": "[parameters('location')]"
+                }
+              }
+            }
+          }
+    ],
+    "outputs": {}
+}
